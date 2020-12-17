@@ -1,0 +1,181 @@
+:root {
+  --background-color: #ffffff;
+  --main-text-color: #212121;
+  --text-color: #000000;
+  --additional-text-color: #757575;
+  --active-color: #2196f3;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--additional-text-color);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.03em;
+}
+
+ul,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+/* оформление логотипа */
+.logo-header,
+.logo-footer {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  color: var(--active-color);
+}
+.logo-header > .logo-studio {
+  color: var(--text-color);
+}
+.logo-footer > .logo-studio {
+  color: var(--background-color);
+}
+
+/* навигация шапки*/
+
+.site-nav .nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.site-nav .nav-link:hover,
+.site-nav .nav-link:focus {
+  color: var(--active-color);
+}
+
+.site-nav .nav-link:active {
+  color: var(--active-color);
+}
+
+.nav-contacts .contacts {
+  color: var(--additional-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+.nav-contacts .contacts:hover,
+.nav-contacts .contacts:focus {
+  color: var(--active-color);
+}
+
+/* Блок-герой */
+.block-hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--background-color);
+}
+
+/*чем мы занимаемся*/
+.our-pluses,
+.portfolio,
+.selection-works,
+.studio-projects {
+  display: none;
+}
+.comands-pluses {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: var(--main-text-color);
+}
+
+.description-pluses {
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--additional-text-color);
+}
+
+.comands {
+  background-color: #f5f4fa;
+}
+
+.we-do,
+.our-comands {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: var(--main-text-color);
+}
+
+.name-team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--main-text-color);
+}
+
+.profession {
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--additional-text-color);
+}
+
+.address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--background-color);
+}
+
+.foot-contacts {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.name-projects {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
+}
+
+.type-projects {
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--additional-text-color);
+}
+
+.btn {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--active-color);
+  color: var(--background-color);
+}
+
+.btn-selection {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--main-text-color);
+}
+
+.btn-selection:hover,
+.btn-selection:focus {
+  color: var(--background-color);
+}
