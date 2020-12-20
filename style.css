@@ -14,7 +14,6 @@ body {
   font-style: normal;
   font-weight: normal;
   letter-spacing: 0.03em;
-  box-sizing: border-box;
 }
 
 ul,
@@ -28,6 +27,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   padding: 0 15px;
+  box-sizing: border-box;
 }
 header {
   border-bottom: 1px solid #ececec;
@@ -215,12 +215,7 @@ li {
 
 .list-we-do {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.item-we-do {
-  margin-left: 0;
-  margin-right: 30px;
+  margin: 0;
 }
 
 .list-we-do,
@@ -313,7 +308,7 @@ img {
 /*страница портфолио*/
 
 .offers-company {
-  padding-top: 94px;
+  padding: 94px 0;
 }
 
 .btn-selection {
@@ -354,7 +349,7 @@ img {
 .stud-projects {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 0 94px 0;
+  margin: 0;
   padding: 0;
 }
 
